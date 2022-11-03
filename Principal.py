@@ -19,7 +19,6 @@ def deposito():
     print("Su saldo viejo: C$",deposit)
     depositoCuenta(deposit)
     
-
 def retirodeDinero():
     withdrawal = int(input("Digite la cantidad del retiro C$: "))
     retiroCuenta(withdrawal)
